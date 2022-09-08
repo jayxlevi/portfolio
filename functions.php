@@ -13,11 +13,11 @@ function processForm($data){
     $msg .= "<p>This person submitted " . $email . " as a return email</p>";
     $msg .= "</div>";
 
-    $to = "jayleviperrone@gmail.com";
+    $to = "jay@jayperrone.com";
     $subject = "Portfolio Contact Form Submission";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-Type: text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: donotreply@test.com\r\n";
+    $headers .= "From: donotreply@jayperrone.com\r\n";
 
     mail($to, $subject, $msg, $headers);
 
