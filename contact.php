@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
 
     $result = processForm($data);
 
-    if($result == true){
+    if($result){
         header('Location: form_success.php');
     }//end of redirect
 
