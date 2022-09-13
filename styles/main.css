@@ -318,6 +318,7 @@ ul li a::before {
     nav{
         position: fixed;
         width: 100%;
+        top: 125px;
         /*box-shadow: 5px 5px 5px #1a2c40;*/
         height: 30px;
         /*background-color: #425688;*/
