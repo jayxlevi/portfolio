@@ -5,7 +5,8 @@ include('includes/header.php');
 ?>
 <main>
     <h2>Artwork by Jay</h2>
-    <p class="artcaption">Since he was a young child, Jay has loved to paint and draw. Here are some examples of his work.</p><br><br>
+    <p class="artcaption">Since he was a young child, Jay has loved to paint and draw. Here are some examples of his work.<br>
+    Hover if you want to see the image a bit bigger!</p><br><br>
 
     <div id="artwork">
         <img class="artimg" src="images/artwork/transbw.jpg" alt="Painting showing the perceived notion that gender is black and white, but people exist in a grey area and aren't so binary"><br>
